@@ -1,5 +1,5 @@
 # AnsiblePlaybook
 
-Mon premier projet avec Ansible. 
+Ansible playbook avec Nginx et AWS.
 
-My first Ansible-realted project.
+My first Ansible-realted project. Nginx playbook using Ansible and AWS.
