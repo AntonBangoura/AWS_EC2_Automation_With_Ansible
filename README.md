@@ -1,5 +1,4 @@
 # AnsiblePlaybook
 
-Ansible playbook avec Nginx et AWS.
-
-My first Ansible-realted project. Nginx playbook using Ansible and AWS.
+Automatisation d'un réseau cloud privé virtuel (VPC) avec Ansible et AWS.<br>
+Automation of a VPC using Ansible and AWS.
