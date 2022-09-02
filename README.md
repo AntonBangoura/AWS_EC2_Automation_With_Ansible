@@ -10,6 +10,9 @@ $ sudo apt-get install python3-pip     <br>
 $ sudo pip3 install boto boto3 ansible<br> <br><br>
 # Step  2 -
 Create Three EC2 instances => one Ansible mater (Ansible_Master) and two Ansible targets ( Ansible_Target1 & Ansible_Target2 ). <br>
+!!! Download and use the same key when you create your instance !!!
+
+
 ![image](https://user-images.githubusercontent.com/103506746/188097036-e0bd4bea-6a27-4012-9d0b-fe2f33fa7d50.png)
 
 
@@ -31,4 +34,9 @@ $ sudo amazon-linux-extras install ansible2 <br>
 
 # Step 3
 
-Our goal is to be able to connect to our targets ( Ansible_Target1 & Ansible_Target2 ) with our master (Ansible_Master).
+Our goal is to be able to connect to our targets ( Ansible_Target1 & Ansible_Target2 ) with our master (Ansible_Master).<br>
+We need to install our key into our Ansible_Master <br>
+To do so, create the file with vim, and paste the key you obtained from AWS when you created your instances.<br>
+![image](https://user-images.githubusercontent.com/103506746/188104314-6cdc13f8-c864-45af-87b3-df35c246e91e.png)
+![image](https://user-images.githubusercontent.com/103506746/188104142-b7a891a9-668a-4293-86c9-f68ded26bfa9.png)
+
