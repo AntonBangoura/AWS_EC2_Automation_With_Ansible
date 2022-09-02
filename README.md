@@ -29,3 +29,6 @@ $ sudo amazon-linux-extras install ansible2 <br>
 ![image](https://user-images.githubusercontent.com/103506746/188098281-aca28540-cc4e-4b86-b9a6-f8516a195976.png)
 
 
+# Step 3
+
+Our goal is to be able to connect to our targets ( Ansible_Target1 & Ansible_Target2 ) with our master (Ansible_Master).
