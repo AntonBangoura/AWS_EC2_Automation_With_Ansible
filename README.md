@@ -38,5 +38,5 @@ Our goal is to be able to connect to our targets ( Ansible_Target1 & Ansible_Tar
 We need to install our key into our Ansible_Master <br>
 To do so, create the file with vim, and paste the key you obtained from AWS when you created your instances.<br>
 ![image](https://user-images.githubusercontent.com/103506746/188104314-6cdc13f8-c864-45af-87b3-df35c246e91e.png)
-![image](https://user-images.githubusercontent.com/103506746/188104142-b7a891a9-668a-4293-86c9-f68ded26bfa9.png)
+![image](https://user-images.githubusercontent.com/103506746/188104875-d7b1e026-1ae1-49b3-9407-d36c3e79b3c2.png)
 
