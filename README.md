@@ -47,14 +47,22 @@ We need to install our key into our Ansible_Master <br>
 
 To do so, create the file with vim, and paste the key you obtained from AWS when you created your instances.<br>
 !!Don't forget to change the authorisations of your key to be able to use it!!
-![image](https://user-images.githubusercontent.com/103506746/188104314-6cdc13f8-c864-45af-87b3-df35c246e91e.png)
-<br>
+![image](https://user-images.githubusercontent.com/103506746/188104314-6cdc13f8-c864-45af-87b3-df35c246e91e.png)<br><br><br>
+
+Then, you need to copy your AWS key into the ssh file, so that the key automatically comes with the ssh connection.<br>
+To do so, do<br>
+![image](https://user-images.githubusercontent.com/103506746/188570576-85d05179-6ef5-4956-b0ff-a7709059f706.png)
+
+<br><br><br>
+
 With vim, create a file with ansible instructions as following: be precise with the syntax, because all instructions will be there.<br>
 Take the IPv4 from your aws instances Ansible_Target1 and Ansible_Target2.
-![image](https://user-images.githubusercontent.com/103506746/188566528-7d19346b-550d-4b68-8a7b-ba1cfda29984.png)
+![image](https://user-images.githubusercontent.com/103506746/188566528-7d19346b-550d-4b68-8a7b-ba1cfda29984.png)<br><br><br>
 
+Now you can see that the command works, but i still need to manually write instructions yes/no. <br>
+We want to automate the whole process, so we don't want to write the instruction manually. <br>
+We will change the settings of the file, so that the question doesn't appear.<br>
 
-![image](https://user-images.githubusercontent.com/103506746/188567709-45b34961-3b02-4144-8b5f-967c5d37f73a.png)
 
 ![image](https://user-images.githubusercontent.com/103506746/188566292-1a63f412-f153-4567-9fbf-fce175f8fd42.png)
 ![image](https://user-images.githubusercontent.com/103506746/188567709-45b34961-3b02-4144-8b5f-967c5d37f73a.png)
