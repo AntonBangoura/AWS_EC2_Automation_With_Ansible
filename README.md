@@ -48,3 +48,4 @@ To do so, create the file with vim, and paste the key you obtained from AWS when
 ![image](https://user-images.githubusercontent.com/103506746/188104314-6cdc13f8-c864-45af-87b3-df35c246e91e.png)
 ![image](https://user-images.githubusercontent.com/103506746/188104875-d7b1e026-1ae1-49b3-9407-d36c3e79b3c2.png)
 
+![image](https://user-images.githubusercontent.com/103506746/188566292-1a63f412-f153-4567-9fbf-fce175f8fd42.png)
