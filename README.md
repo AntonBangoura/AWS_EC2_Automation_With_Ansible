@@ -43,10 +43,12 @@ $ sudo amazon-linux-extras install ansible2 <br>
 
 Our goal is to be able to connect to our targets ( Ansible_Target1 & Ansible_Target2 ) with our master (Ansible_Master).<br>
 We need to install our key into our Ansible_Master <br>
+![image](https://user-images.githubusercontent.com/103506746/188104875-d7b1e026-1ae1-49b3-9407-d36c3e79b3c2.png)
+
 To do so, create the file with vim, and paste the key you obtained from AWS when you created your instances.<br>
 !!Don't forget to change the authorisations of your key to be able to use it!!
 ![image](https://user-images.githubusercontent.com/103506746/188104314-6cdc13f8-c864-45af-87b3-df35c246e91e.png)
-![image](https://user-images.githubusercontent.com/103506746/188104875-d7b1e026-1ae1-49b3-9407-d36c3e79b3c2.png)
+<br>
 
 ![image](https://user-images.githubusercontent.com/103506746/188566292-1a63f412-f153-4567-9fbf-fce175f8fd42.png)
 ![image](https://user-images.githubusercontent.com/103506746/188567128-8ed0541d-2028-4819-a72e-e31329c1fcda.png)
