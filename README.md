@@ -49,11 +49,15 @@ To do so, create the file with vim, and paste the key you obtained from AWS when
 !!Don't forget to change the authorisations of your key to be able to use it!!
 ![image](https://user-images.githubusercontent.com/103506746/188104314-6cdc13f8-c864-45af-87b3-df35c246e91e.png)
 <br>
+![image](https://user-images.githubusercontent.com/103506746/188566528-7d19346b-550d-4b68-8a7b-ba1cfda29984.png)
+
+With vim, create a file with ansible instructions as following: be precise with the syntax, because all instructions will be there.<br>
+Take the IPv4 from your aws instances Ansible_Target1 and Ansible_Target2.
 ![image](https://user-images.githubusercontent.com/103506746/188567709-45b34961-3b02-4144-8b5f-967c5d37f73a.png)
 
 ![image](https://user-images.githubusercontent.com/103506746/188566292-1a63f412-f153-4567-9fbf-fce175f8fd42.png)
+![image](https://user-images.githubusercontent.com/103506746/188567709-45b34961-3b02-4144-8b5f-967c5d37f73a.png)
 
-![image](https://user-images.githubusercontent.com/103506746/188566528-7d19346b-550d-4b68-8a7b-ba1cfda29984.png)
 ![image](https://user-images.githubusercontent.com/103506746/188566993-39de226e-c090-4b42-9038-ab0c16387697.png)
 
 ![image](https://user-images.githubusercontent.com/103506746/188567620-97a8fcfe-ec57-4b54-9567-bbec6e982301.png)
