@@ -51,7 +51,6 @@ To do so, create the file with vim, and paste the key you obtained from AWS when
 <br>
 
 ![image](https://user-images.githubusercontent.com/103506746/188566292-1a63f412-f153-4567-9fbf-fce175f8fd42.png)
-![image](https://user-images.githubusercontent.com/103506746/188567128-8ed0541d-2028-4819-a72e-e31329c1fcda.png)
 
 ![image](https://user-images.githubusercontent.com/103506746/188566528-7d19346b-550d-4b68-8a7b-ba1cfda29984.png)
 ![image](https://user-images.githubusercontent.com/103506746/188566993-39de226e-c090-4b42-9038-ab0c16387697.png)
