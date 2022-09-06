@@ -22,6 +22,13 @@ If it doesn't work, check if snap is installed with<br>
 $ snap version <br>
 If it still doesn't work, check if snapd is activated. It is a common issue. To activate is, use <br>
 $ sudo systemctl start snapd.service <br>
+!!! If you have Kali Linux installed, there are high chances to get errors when you enter your command $ sudo snap run termius-app !!!<br>
+Here is the solution:
+![image](https://user-images.githubusercontent.com/103506746/188558460-8f43ba27-c331-460c-b2bb-58d6d16cfaa3.png)
+
+
+
+
 
 Now, connect with termius to you Ansible_Master. The public IPv4 can be found in the instances details.<br>
 
