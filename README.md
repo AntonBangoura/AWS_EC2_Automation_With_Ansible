@@ -62,12 +62,14 @@ Take the IPv4 from your aws instances Ansible_Target1 and Ansible_Target2.
 Now you can see that the command works, but i still need to manually write instructions yes/no. <br>
 We want to automate the whole process, so we don't want to write the instruction manually. <br>
 We will change the settings of the file, so that the question doesn't appear.<br>
+To open ansible settings:<br>
+![image](https://user-images.githubusercontent.com/103506746/188571330-92aca4db-72c5-44ea-beee-9b727cc4ffb6.png)<br><br>
+Then, take off the # in front of the line containing host_key_checking
+![image](https://user-images.githubusercontent.com/103506746/188566993-39de226e-c090-4b42-9038-ab0c16387697.png)
 
 
 ![image](https://user-images.githubusercontent.com/103506746/188566292-1a63f412-f153-4567-9fbf-fce175f8fd42.png)
 ![image](https://user-images.githubusercontent.com/103506746/188567709-45b34961-3b02-4144-8b5f-967c5d37f73a.png)
-
-![image](https://user-images.githubusercontent.com/103506746/188566993-39de226e-c090-4b42-9038-ab0c16387697.png)
 
 ![image](https://user-images.githubusercontent.com/103506746/188567620-97a8fcfe-ec57-4b54-9567-bbec6e982301.png)
 
