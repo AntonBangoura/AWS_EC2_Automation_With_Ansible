@@ -1,7 +1,5 @@
-# host.inventory
-
-[vpc]
-vpc.ansibled
-
-[project.ansibled:children]
-vpc
+[servers]
+ansible-target-1 ansible_ssh_host=44.207.7.229 ansible_connection=ssh ansible_user=ec2-user
+ansible-target-2 ansible_ssh_host=23.22.95.84 ansible_connection=ssh ansible_user=ec2-user
+~                                                                                                                                    
+~                                                                                                    
