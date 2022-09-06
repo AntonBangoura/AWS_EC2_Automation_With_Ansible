@@ -66,10 +66,17 @@ To open ansible settings:<br>
 ![image](https://user-images.githubusercontent.com/103506746/188571330-92aca4db-72c5-44ea-beee-9b727cc4ffb6.png)<br><br>
 Then, take off the # in front of the line containing host_key_checking
 ![image](https://user-images.githubusercontent.com/103506746/188566993-39de226e-c090-4b42-9038-ab0c16387697.png)
+<br><br><br>
+We see that now, we aren't ask to confirm<br>
+![image](https://user-images.githubusercontent.com/103506746/188571929-c7403da0-03c8-4057-ba9f-964b05af7dbf.png)<br><br><br>
 
-
-![image](https://user-images.githubusercontent.com/103506746/188566292-1a63f412-f153-4567-9fbf-fce175f8fd42.png)
+Then, to be able to automate the two ( or more ) targets, let's create a group in our inventory.txt file. <br>
+To create a group, do <br>
 ![image](https://user-images.githubusercontent.com/103506746/188567709-45b34961-3b02-4144-8b5f-967c5d37f73a.png)
 
+<br><br><br>
+Now, with the command to the group [ servers ], let's write the command.
+
+# It Works! All of my servers obey me, my self-esteem increases.  What a great day! <3
 ![image](https://user-images.githubusercontent.com/103506746/188567620-97a8fcfe-ec57-4b54-9567-bbec6e982301.png)
 
